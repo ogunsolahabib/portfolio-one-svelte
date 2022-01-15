@@ -36,11 +36,6 @@
       icon: "fab fa-twitter",
       link: "https://twitter.com/ha_beeeb",
     },
-    {
-      name: "Codepen",
-      icon: "fab fa-codepen",
-      link: "https://codepen.io/ogunsolahabib",
-    },
   ];
 </script>
 
