@@ -56,14 +56,15 @@
 				<br />
 				<p>
 					I am currently building User Interfaces with awesome people at{' '}
-					<a target="_blank" rel="noreferrer" href="https://www.ebanqo.com/"> eBanqo Inc. </a>
+					<a target="_blank" rel="noreferrer" href="https://www.ahroscientific.com/">
+						AHRO Publishing.
+					</a>
 				</p>
 			</div>
 		</div>
 	</section>
 	<section class="section bottom">
 		<div id="contact">
-			<h3>Profiles/Contact</h3>
 			<div>
 				<ul class="set social">
 					{#each socials as social}
@@ -93,12 +94,4 @@
 			</div>
 		</div>
 	</section>
-
-	<h3>Projects</h3>
-
-	{#each projects as project}
-		<div>
-			<Work {project} />
-		</div>
-	{/each}
 </main>
