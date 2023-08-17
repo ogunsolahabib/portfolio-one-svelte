@@ -96,20 +96,12 @@ ul {
 #contact > div li {
   margin-bottom: 1rem;
 }
-@media screen and (min-width: 1024px) {
-  #contact > div {
-    flex-direction: row;
-  }
-}
+
 .bottom {
   display: flex;
   flex-wrap: wrap;
 }
-.v-line {
-  width: 2px !important;
-  background: #fff;
-  border-radius: 1px;
-}
+
 .btn {
   background: inherit;
   padding: 0.5rem 1rem;
