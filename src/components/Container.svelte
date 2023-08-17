@@ -1,7 +1,4 @@
 <script>
-	import LottieAnimation from './LottieAnimation.svelte';
-	import Work from './Work.svelte';
-
 	let projects = [
 		{
 			name: 'Tunez',
