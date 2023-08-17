@@ -1,5 +1,10 @@
-<script>
-	import App from '../App.svelte';
+<script lang="ts">
+	import 'global.css';
+	import Header from '../components/Header.svelte';
+	import Container from '../components/Container.svelte';
 </script>
 
-<App />
+<div>
+	<Header />
+	<Container />
+</div>
