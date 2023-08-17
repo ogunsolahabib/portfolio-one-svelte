@@ -21,20 +21,22 @@
 	];
 	let socials = [
 		{
-			name: 'Linkedin',
-			icon: 'fab fa-linkedin',
-			link: 'https://linkedin.com/in/habib-ogunsola-92b79a15a/'
-		},
-		{
 			name: 'Github',
 			icon: 'fab fa-github',
-			link: 'https://github.com/ogunsolahabib/'
+			link: 'https://github.com/ogunsolahabib'
 		},
-
+		{
+			name: 'Linkedin',
+			icon: 'fab fa-linkedin',
+			link: 'https://linkedin.com/in/habibogunsola'
+		},
 		{
 			name: 'Twitter',
-			icon: 'fab fa-twitter',
 			link: 'https://twitter.com/ha_beeeb'
+		},
+		{
+			name: 'Email',
+			link: 'mailto:ogunsolahabib@yahoo.com'
 		}
 	];
 </script>
@@ -43,11 +45,11 @@
 	<section class="section section--hero">
 		<div class="hero__about">
 			<h1 class="greeting">
-				<span class="greeting__hi">Hi, I'm</span> HABIB OGUNSOLA
+				<span class="greeting__hi">Hi, I'm</span> HABIB OGUNSOLA.
 			</h1>
 			<div class="description">
 				<p>
-					A creative Frontend Engineer and UX enthusiast based in Lagos, Nigeria with{' '}
+					A creative Frontend Engineer and UX enthusiast with{' '}
 					{new Date().getMonth() > 3 ? 'over' : 'about'}{' '}
 					{new Date().getFullYear() - 2019} years experience in building aesthetically pleasing large
 					scale web applications.
@@ -75,23 +77,40 @@
 						</li>
 					{/each}
 				</ul>
-				<div class="v-line" />
-				<ul class="set address">
-					<li>
-						<a href="tel:+2348182141620">
-							<i class="fas fa-phone" />
-							&nbsp;+2348182141620
-						</a>
-					</li>
-					<li>
-						<a href="mailto:ogunsolahabib@yahoo.com">
-							<i class="far fa-envelope" />
-							&nbsp;
-							<span>ogunsolahabib@yahoo.com</span>
-						</a>
-					</li>
-				</ul>
 			</div>
 		</div>
 	</section>
 </main>
+
+<style>
+	main {
+		min-height: 70vh;
+		@media screen and (min-width: 768px) {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+	}
+
+	.description p {
+		font-size: 28px;
+	}
+	section {
+		width: clamp(200px, 100%, 1080px);
+		margin: auto;
+	}
+	#contact {
+		margin: auto;
+	}
+	.social {
+		display: flex;
+		gap: 30px;
+		flex-wrap: wrap;
+		margin-top: 50px;
+		font-size: 20px;
+	}
+	.social a:hover {
+		text-decoration: underline;
+	}
+</style>
