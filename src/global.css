@@ -34,7 +34,7 @@ footer {
   header,
   main,
   footer {
-    padding: 3rem 10vw;
+    max-width: 1080px;
   }
 }
 h1,
@@ -71,10 +71,7 @@ ul {
   flex-direction: column;
   margin-bottom: 5rem;
 }
-.section--hero .hero__about {
-  font-weight: 700;
-  width: 100%;
-}
+
 .section--hero .hero__about a {
   text-decoration: underline;
 }
@@ -88,16 +85,7 @@ ul {
 .section--hero .hero__image img {
   width: 100%;
 }
-@media only screen and (min-width: 1024px) {
-  .section--hero {
-    align-items: center;
-    flex-direction: row;
-  }
-  .section--hero .hero__about {
-    max-width: 800px;
-    margin-right: 5vw;
-  }
-}
+
 #contact > div {
   display: flex;
   flex-direction: column-reverse;
