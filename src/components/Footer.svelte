@@ -25,12 +25,12 @@
 
 <footer>
 	<p class="site-details">
-		Built with <a target="_blank" rel="noopener noreferrer" href="https://svelte.dev">Svelte.js</a>
+		Built with <a target="_blank" rel="noopener noreferrer" href="https://svelte.dev">Svelte</a>
 		and hosted on
 		<a target="_blank" rel="noopener noreferrer" href="https://netlify.com">Netlify</a>
 	</p>
 	<div class="copyright-and-socials">
-		<p class="copyright">&copy; {new Date().getFullYear()} Habib Ogunsola</p>
+		<p class="copyright">&copy; 2021 - {new Date().getFullYear()}</p>
 		<ul class="socials">
 			{#each socials as social}
 				<li>

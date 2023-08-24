@@ -102,12 +102,13 @@
 	}
 	.social {
 		display: flex;
-		gap: 30px;
+		gap: clamp(10px, 5vw, 30px);
 		flex-wrap: wrap;
 		margin-top: 50px;
-		font-size: 20px;
+		font-size: clamp(13px, 3vmax, 20px);
 	}
-	.social a:hover {
+	.social a {
 		text-decoration: underline;
+		padding-bottom: 10px;
 	}
 </style>
