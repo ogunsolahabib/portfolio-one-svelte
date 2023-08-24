@@ -105,7 +105,7 @@
 		gap: clamp(10px, 5vw, 30px);
 		flex-wrap: wrap;
 		margin-top: 50px;
-		font-size: clamp(14px, 1.5em, 20px);
+		font-size: clamp(13px, 3vmax, 20px);
 	}
 	.social a {
 		text-decoration: underline;
