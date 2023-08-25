@@ -1,10 +1,3 @@
 [build]
   command = "npm run build"
   publish = "build"
-
-[[redirects]]
-  from = "https://synergist.netlify.app"
-  to = "https://habib.ogunsola.me"
-  status = 301
-  force = true
-  headers = {X-From = "Netlify"}
