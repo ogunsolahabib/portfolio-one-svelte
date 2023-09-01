@@ -116,9 +116,7 @@ ul {
 }
 
 .btn {
-  background: inherit;
-  padding: 0.5rem 1rem;
-  min-width: 10rem;
+  background: inherit; 
   font-family: inherit;
   cursor: pointer;
   outline: none;
@@ -130,7 +128,9 @@ ul {
   border: 2px solid var(--text-color);
   font-size: .8em;
   color: var(--text-color);
-  border-radius: 5px;
+  border-radius: 5px; 
+  padding: 0.5rem 1rem;
+  min-width: 10rem;
 }
 .btn-arrow:hover {
   border: none;
