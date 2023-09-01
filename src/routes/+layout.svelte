@@ -34,5 +34,6 @@
 	<meta content="@ha_beeeb" name="twitter:creator" />
 	<meta content={meta.title} name="twitter:title" />
 	<meta content={meta.description} name="twitter:description" />
+	<meta name="google-site-verification" content="4K3GVII94Nt2n06PhsfrzWsef6ui5dT6aA3C7SeWh0s" />
 </svelte:head>
 <slot />
