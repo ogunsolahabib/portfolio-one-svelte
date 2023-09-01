@@ -1,5 +1,5 @@
 <script lang="ts">
-	let name = 'World';
+	import { themeStore } from 'svelte-theme-switch';
 </script>
 
 <header>
@@ -10,6 +10,11 @@
 			</a>
 		</div>
 		<div class="right">
+			<button
+				on:click={() => $themeStore.setTheme($themeStore.theme === 'light' ? 'dark' : 'light')}
+			>
+				Switch Theme
+			</button>
 			<a
 				target="_blank"
 				rel="noopener noreferrer"
@@ -23,7 +28,6 @@
 
 <style>
 	.brand-logo h1 {
-		color: #97b1a5;
 		font-size: 5rem;
 		vertical-align: middle;
 		text-align: center;
