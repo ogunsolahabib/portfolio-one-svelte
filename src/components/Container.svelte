@@ -42,7 +42,7 @@
 	<section class="section section--hero">
 		<div class="hero__about">
 			<h1 class="greeting">
-				<span class="greeting__hi">Hi, I'm</span> HABIB OGUNSOLA.
+				<span class="greeting__hi">Hi, I'm</span> <span>HABIB OGUNSOLA.</span>
 			</h1>
 			<div class="description">
 				<p>
@@ -80,6 +80,13 @@
 </main>
 
 <style>
+	.greeting {
+		font-size: clamp(2.5rem, 8vmin, 10rem);
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
 	main {
 		min-height: 70vh;
 		@media screen and (min-width: 768px) {
@@ -91,7 +98,7 @@
 	}
 
 	.description p {
-		font-size: 28px;
+		font-size: clamp(1.5rem, 5vmin, 3rem);
 	}
 	section {
 		width: clamp(200px, 100%, 1080px);

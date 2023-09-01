@@ -45,18 +45,8 @@ h3 {
 ul {
   list-style-type: none;
 }
-.greeting {
-  font-size: clamp(2.5rem, 5vw, 5rem);
-}
-.greeting span {
-  display: block;
-  font-weight: 400;
-}
-@media only screen and (min-width: 1280px) {
-  .greeting span {
-    display: inline;
-  }
-}
+
+
 .large-text {
   padding: 0.5rem 3rem;
   width: 100%;
