@@ -18,7 +18,7 @@
 	];
 	let socials = [
 		{
-			name: 'Github',
+			name: 'GitHub',
 			icon: 'fab fa-github',
 			link: 'https://github.com/ogunsolahabib'
 		},
