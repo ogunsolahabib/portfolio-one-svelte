@@ -20,7 +20,6 @@
 		rel="stylesheet"
 	/>
 
-	<link href="favicon.ico" rel="shortcut icon" />
 	<meta content={meta.keywords} name="keywords" />
 	<meta content={meta.title} property="og:title" />
 	<meta content="en_GB" property="og:locale" />

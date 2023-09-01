@@ -15,15 +15,39 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
+
+:root {
+  --background-color: #be6077;
+  --text-color: #000;
+
+}
+
+html[data-theme='light'] {
+  
+  --background-color: #be6077;
+  --text-color: #000;
+}
+
+html[data-theme='dark'] {
+  --background-color: #000;
+  --text-color: #be6077;
+ 
+}
+
+
 body {
   font-family: "Comfortaa", sans-serif;
-  background: #12171d;
-  color: #fff;
   font-size: 1.6rem;
   box-sizing: border-box;
   width: 100%;
   overflow-x: hidden;
+
+  background: var(--background-color);
+    color: var(--text-color);
 }
+
+
+
 header,
 main,
 footer {
@@ -39,24 +63,13 @@ footer {
 }
 h1,
 h3 {
-  color: #97b1a5;
   margin-bottom: 1rem;
 }
 ul {
   list-style-type: none;
 }
-.greeting {
-  font-size: clamp(2.5rem, 5vw, 5rem);
-}
-.greeting span {
-  display: block;
-  font-weight: 400;
-}
-@media only screen and (min-width: 1280px) {
-  .greeting span {
-    display: inline;
-  }
-}
+
+
 .large-text {
   padding: 0.5rem 3rem;
   width: 100%;
@@ -103,19 +116,21 @@ ul {
 }
 
 .btn {
-  background: inherit;
-  padding: 0.5rem 1rem;
+  background: inherit; 
   font-family: inherit;
   cursor: pointer;
-  color: #97b1a5;
   outline: none;
 }
 .btn:hover {
-  border: 2px solid #eedcba;
-  color: #eedcba;
+  border: 2px solid;
 }
 .btn-primary {
-  border: 2px solid #97b1a5;
+  border: 2px solid var(--text-color);
+  font-size: .8em;
+  color: var(--text-color);
+  border-radius: 5px; 
+  padding: 0.5rem 1rem;
+  min-width: 10rem;
 }
 .btn-arrow:hover {
   border: none;

@@ -18,7 +18,7 @@
 	];
 	let socials = [
 		{
-			name: 'Github',
+			name: 'GitHub',
 			icon: 'fab fa-github',
 			link: 'https://github.com/ogunsolahabib'
 		},
@@ -42,7 +42,8 @@
 	<section class="section section--hero">
 		<div class="hero__about">
 			<h1 class="greeting">
-				<span class="greeting__hi">Hi, I'm</span> HABIB OGUNSOLA.
+				<span class="greeting__hi">Hi, I'm</span>
+				<span class="greeting__name">HABIB OGUNSOLA.</span>
 			</h1>
 			<div class="description">
 				<p>
@@ -80,6 +81,20 @@
 </main>
 
 <style>
+	.greeting {
+		font-size: clamp(2.5rem, 7vmin, 10rem);
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.greeting__hi {
+		font-weight: 300;
+	}
+	.greeting__name {
+		font-weight: 600;
+	}
+
 	main {
 		min-height: 70vh;
 		@media screen and (min-width: 768px) {
@@ -91,7 +106,7 @@
 	}
 
 	.description p {
-		font-size: 28px;
+		font-size: clamp(1.5rem, 5vmin, 2.5rem);
 	}
 	section {
 		width: clamp(200px, 100%, 1080px);
