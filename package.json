@@ -33,6 +33,6 @@
 	"type": "module",
 	"dependencies": {
 		"sass": "^1.65.1",
-		"svelte-theme-switch": "^0.0.19"
+		"svelte-theme-switch": "^0.0.21"
 	}
 }
