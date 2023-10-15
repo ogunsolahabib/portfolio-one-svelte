@@ -39,6 +39,7 @@
 	<!-- Google Tag Manager -->
 	<!-- Google Tag Manager -->
 	<!-- Google Tag Manager -->
+	<!-- Google Tag Manager -->
 	<script>
 		(function (w, d, s, l, i) {
 			w[l] = w[l] || [];
@@ -52,6 +53,17 @@
 		})(window, document, 'script', 'dataLayer', 'GTM-5L7WGSSH');
 	</script>
 	<!-- End Google Tag Manager -->
+	<!-- End Google Tag Manager -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N30T60DW8P"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-N30T60DW8P');
+	</script>
 </svelte:head>
 
 <!-- Google Tag Manager (noscript) -->
