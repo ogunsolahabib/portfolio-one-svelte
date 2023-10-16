@@ -1,4 +1,4 @@
-# Redirect with a 301
-https://synergist.netlify.app         https://habib.ogunsola.me              301!
+# Redirect with a 302
+https://synergist.netlify.app         https://habib.ogunsola.me              302!
 
 https://synergist.netlify.app         https://habib.ogunsola.me              200!
