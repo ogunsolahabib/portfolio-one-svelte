@@ -47,10 +47,8 @@
 			</h1>
 			<div class="description">
 				<p>
-					A creative Frontend Engineer and UX enthusiast with{' '}
-					{new Date().getMonth() > 3 ? 'over' : 'about'}{' '}
-					{new Date().getFullYear() - 2019} years experience in building aesthetically pleasing large
-					scale web applications.
+					A creative Frontend Engineer and UX enthusiast with experience in building aesthetically
+					pleasing large scale web applications.
 				</p>
 				<p>Interested in Tech, Business, Combat sports, and Football.</p>
 				<br />

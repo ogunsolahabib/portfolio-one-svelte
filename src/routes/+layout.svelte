@@ -39,9 +39,6 @@
 	<!-- Google Tag Manager -->
 	<!-- Google Tag Manager -->
 	<!-- Google Tag Manager -->
-	<!-- Google Tag Manager -->
-	<!-- Google Tag Manager -->
-	<!-- Google Tag Manager -->
 	<script>
 		(function (w, d, s, l, i) {
 			w[l] = w[l] || [];
@@ -69,6 +66,7 @@
 >
 <!-- End Google Tag Manager (noscript) -->
 {#if browser}
+	<!-- End Google Tag Manager -->
 	<!-- End Google Tag Manager -->
 	<!-- End Google Tag Manager -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N30T60DW8P"></script>
